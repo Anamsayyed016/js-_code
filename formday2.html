@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+           
+            <form action="">
+                <div id="errorname"></div>
+                    <input type="text" placeholder="Enter Name" id="name" onblur="s('name')"> <br><br>
+
+                    <div id="erroremail"></div>
+                    <input type="email" placeholder="Enter email" id="email" onblur="s('email')"><br><br>
+
+                    <div id="errornumber"> </div>
+                    <input type="tel" placeholder="Enter number" id="mobile" onblur="s('mobile')"><br><br>
+
+                    <div id="errorpass"></div>
+                    <input type="password" placeholder="Enter password" id="password" onblur="s('password')"><br><br>
+
+                    <div id="errorcpass"></div>
+                    <input type="confirmpassword" placeholder="Enter confirm password" id="cpassword" onblur="s('cpassword')"><br><br>
+
+                    <button onclick="return registration()">submit</button>
+            </form>
+
+    <script src="./formday2.js"></script>
+</body>
+</html>

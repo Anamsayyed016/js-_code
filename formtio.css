@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.pragetx{
+    width: 54%;
+    height: 54%;
+    background-color: blue;
+}
+.pragetx div{
+    width: 54%;
+    height: 54%;
+    background-color:#024d81;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    border-radius: 10px;
+}
+
+.pragetx-box h1{
+    color: rgb(252, 245, 245);
+    margin-top: 6%;
+    margin-left: 4%;
+    font-size: 28px;
+    font-weight: 600;
+}
+.pragetx-box h4{
+    color: rgb(252, 245, 245);
+    margin-top: 2%;
+    margin-left: 10%;
+    background-color: white;
+    color: #024d81;
+    position: absolute;
+    padding: 20px;
+    border-radius: 40%;
+    font-size: 20px;
+    
+}
+.pragetx .vertical-line {
+    border-left: 1px solid #f5f2f2;
+    height: 20%;
+    width: 2px;
+    margin: 3% 15% ; /* add some margin to create space between elements */
+  }
+
+  .pragetx-title-two h1{
+    position: absolute;
+    left: 35%;
+    top: 1%;
+  }
+  .pragetx-title-two h4{
+    position: absolute;
+    left: 32%;
+  }
+  .pragetx-title-two .vertical-line1{
+    border-left: 1px solid #f5f2f2;
+    height: 20%;
+    width: 2px;
+    margin: 3% 45% ; /* add some margin to create space between elements */
+  }
+
+  .pragetx-title-three h1{
+    position: absolute;
+    left: 67%;
+    top: 1%;
+  }
+  .pragetx-title-three h4{
+    position: absolute;
+    left: 65%;
+  }
+
+  .pragetx-sub-sec{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+   
+  }
+  .pragetx-sub-sec input{
+    padding: 25px;
+    border-radius: 20px;
+    width: 150%;
+  }
+  .btn{
+    position: absolute;
+    left: 200%;
+    top: 10%;
+    padding: 10px;
+    border-radius: 50px;
+    width: 90%;
+  }

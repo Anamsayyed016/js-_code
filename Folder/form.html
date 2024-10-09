@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+        <form>
+            <div id="erroremail"></div>
+            <input type="email" placeholder="enter your email" id="email" onblur="valid()"><br><br>
+
+            <div id="errorpassword"></div>
+            <input type="password" placeholder="enter your password" id="password" onblur="valid()"><br><br>
+
+
+
+            <button onclick="return submit()">submit</button>
+        </form>
+
+    <script src="./form.js"></script>
+</body>
+</html>
