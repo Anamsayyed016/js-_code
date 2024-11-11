@@ -17,17 +17,34 @@
 
 // console.log(count);
 
-    function output(){
-        let str = document.querySelector('#str').value;
-        let count = 0;
+    // function output(){
+    //     let str = document.querySelector('#str').value;
+    //     let count = 0;
 
-        for(let i = 0; i < str.length; i++){
-            if(str[i]===""){
-                count = count + 1
-            }
-        }
+    //     for(let i = 0; i < str.length; i++){
+    //         if(str[i]===""){
+    //             count = count + 1
+    //         }
+    //     }
 
-        document.querySelector('#answer').innerHTML=count;
-        return false;
-    }
+    //     document.querySelector('#answer').innerHTML=count;
+    //     return false;
+    // }
 
+
+let str = "this is js class";
+console.log(str);
+console.log(str[0])
+
+//method of strings
+
+console.log(str.length);
+console.log(str.replace("" ,""));
+
+console.log(str.includes("sj"));
+
+console.log(str.slice(3,6));
+
+console.log(str.slice(11,str.length));
+
+console.log(str.trim());
