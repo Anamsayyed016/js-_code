@@ -1,0 +1,36 @@
+{
+  "emp": [
+    {
+      "id": "7965",
+      "name": "anam sayyed",
+      "age": "45689",
+      "address": "house no. 20 neqr kallu bua masjid, kamla park",
+      "contact": "34567890",
+      "city": "bhopal"
+    },
+    {
+      "id": "3342",
+      "name": "anam sayyed",
+      "age": "2566",
+      "address": "house no. 20 neqr kallu bua masjid, kamla park",
+      "contact": "15244",
+      "city": "bhopal"
+    },
+    {
+      "id": "dfb0",
+      "name": "anam sayyed",
+      "age": "2566",
+      "address": "house no. 20 neqr kallu bua masjid, kamla park",
+      "contact": "15244",
+      "city": "bhopal"
+    },
+    {
+      "id": "36b3",
+      "name": "anam!!!",
+      "age": "574",
+      "address": "ege",
+      "contact": "234",
+      "city": "ind"
+    }
+  ]
+}
